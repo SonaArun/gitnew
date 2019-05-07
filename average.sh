@@ -5,5 +5,6 @@ sum=`expr $sum + $i`
 done 
 printf "Average="
 echo `echo "scale=2; $sum / $# " | bc `
+xyz
 
 
